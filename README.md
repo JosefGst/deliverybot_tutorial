@@ -8,7 +8,7 @@ Use the teleop twist keyboard to move the robot around with i, j, k, l, buttons.
 
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
-![gmapping](https://github.com/JosefGst/deliverybot_tutorial/blob/main/images/gmapping.png)
+![gmapping](https://github.com/JosefGst/deliverybot_tutorial/blob/master/images/gmapping.png)
 
 Save the map. Replace "lscm" with your map name.
 
@@ -20,7 +20,7 @@ Close all running ros programs before proceeding. Again replace lscm with your m
 
     roslaunch whbot_navigation nav.launch map_name:=lscm.yaml
 
-![navigation](https://github.com/JosefGst/deliverybot_tutorial/blob/main/images/navigation.png)
+![navigation](https://github.com/JosefGst/deliverybot_tutorial/blob/master/images/navigation.png)
 
 Use the "2D Pose Estimate" Button from the top tool bar to position the robot on the map. Now you may try send a goal to the robot with the "2D Nav Goal" Button.
 
